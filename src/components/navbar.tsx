@@ -41,62 +41,35 @@ export default function Navbar() {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-cyan-500 ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div className="py-1">
                           <Menu.Item>
                             {({ active }) => (
                               <a
                                 href="#"
                                 className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                  active ? 'bg-cyan-500 text-white' : 'text-white',
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                Account settings
+                                Únete
                               </a>
                             )}
                           </Menu.Item>
+                          <hr />
                           <Menu.Item>
                             {({ active }) => (
                               <a
                                 href="#"
                                 className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                  active ? 'bg-cyan-500 text-white' : 'text-white',
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                Support
+                                Becas
                               </a>
                             )}
                           </Menu.Item>
-                          <Menu.Item>
-                            {({ active }) => (
-                              <a
-                                href="#"
-                                className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                  'block px-4 py-2 text-sm'
-                                )}
-                              >
-                                License
-                              </a>
-                            )}
-                          </Menu.Item>
-                          <form method="POST" action="#">
-                            <Menu.Item>
-                              {({ active }) => (
-                                <button
-                                  type="submit"
-                                  className={classNames(
-                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                    'block w-full text-left px-4 py-2 text-sm'
-                                  )}
-                                >
-                                  Sign out
-                                </button>
-                              )}
-                            </Menu.Item>
-                          </form>
                         </div>
                       </Menu.Items>
                     </Transition>
@@ -117,62 +90,35 @@ export default function Navbar() {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-cyan-500 ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div className="py-1">
                           <Menu.Item>
                             {({ active }) => (
                               <a
                                 href="#"
                                 className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                  active ? 'bg-cyan-500 text-white' : 'text-white',
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                Account settings
+                                Únete
                               </a>
                             )}
                           </Menu.Item>
+                          <hr />
                           <Menu.Item>
                             {({ active }) => (
                               <a
                                 href="#"
                                 className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                  active ? 'bg-cyan-500 text-white' : 'text-white',
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                Support
+                                Contrata
                               </a>
                             )}
                           </Menu.Item>
-                          <Menu.Item>
-                            {({ active }) => (
-                              <a
-                                href="#"
-                                className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                  'block px-4 py-2 text-sm'
-                                )}
-                              >
-                                License
-                              </a>
-                            )}
-                          </Menu.Item>
-                          <form method="POST" action="#">
-                            <Menu.Item>
-                              {({ active }) => (
-                                <button
-                                  type="submit"
-                                  className={classNames(
-                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                    'block w-full text-left px-4 py-2 text-sm'
-                                  )}
-                                >
-                                  Sign out
-                                </button>
-                              )}
-                            </Menu.Item>
-                          </form>
                         </div>
                       </Menu.Items>
                     </Transition>
@@ -238,10 +184,10 @@ export default function Navbar() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
               <Menu as="div" className="relative inline-block text-left">
                     <div>
-                      <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-xl font-thin text-white hover:text-gray-300 contents">
+                      <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-xl font-thin text-white hover:text-gray-300">
                         Ticongleros
                         <FontAwesomeIcon icon={faAngleDown} className="-mr-1 ml-2 h-5 w-5" />
                       </Menu.Button>
@@ -255,18 +201,18 @@ export default function Navbar() {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="origin-top-right absolute mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Items className="origin-top-right mt-2 w-56 rounded-md shadow-lg bg-cyan-500 ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div className="py-1">
                           <Menu.Item>
                             {({ active }) => (
                               <a
                                 href="#"
                                 className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                  active ? 'bg-cyan-500 text-white' : 'text-white',
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                Account settings
+                                Únete
                               </a>
                             )}
                           </Menu.Item>
@@ -275,11 +221,47 @@ export default function Navbar() {
                               <a
                                 href="#"
                                 className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                  active ? 'bg-cyan-500 text-white' : 'text-white',
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                Support
+                                Becas
+                              </a>
+                            )}
+                          </Menu.Item>
+                        </div>
+                      </Menu.Items>
+                    </Transition>
+                  </Menu>
+                  <br />
+                  <Menu as="div" className="relative inline-block text-left">
+                    <div>
+                      <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-xl font-thin text-white hover:text-gray-300">
+                        Empresas
+                        <FontAwesomeIcon icon={faAngleDown} className="-mr-1 ml-2 h-5 w-5" />
+                      </Menu.Button>
+                    </div>
+                    <Transition
+                      as={Fragment}
+                      enter="transition ease-out duration-100"
+                      enterFrom="transform opacity-0 scale-95"
+                      enterTo="transform opacity-100 scale-100"
+                      leave="transition ease-in duration-75"
+                      leaveFrom="transform opacity-100 scale-100"
+                      leaveTo="transform opacity-0 scale-95"
+                    >
+                      <Menu.Items className="origin-top-right mt-2 w-56 rounded-md shadow-lg bg-cyan-500 ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        <div className="py-1">
+                          <Menu.Item>
+                            {({ active }) => (
+                              <a
+                                href="#"
+                                className={classNames(
+                                  active ? 'bg-cyan-500 text-white' : 'text-white',
+                                  'block px-4 py-2 text-sm'
+                                )}
+                              >
+                                Únete
                               </a>
                             )}
                           </Menu.Item>
@@ -288,29 +270,14 @@ export default function Navbar() {
                               <a
                                 href="#"
                                 className={classNames(
-                                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                  active ? 'bg-cyan-500 text-white' : 'text-white',
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                License
+                                Contrata
                               </a>
                             )}
                           </Menu.Item>
-                          <form method="POST" action="#">
-                            <Menu.Item>
-                              {({ active }) => (
-                                <button
-                                  type="submit"
-                                  className={classNames(
-                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                    'block w-full text-left px-4 py-2 text-sm'
-                                  )}
-                                >
-                                  Sign out
-                                </button>
-                              )}
-                            </Menu.Item>
-                          </form>
                         </div>
                       </Menu.Items>
                     </Transition>
