@@ -1,8 +1,24 @@
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+  Outlet
+} from "react-router-dom";
+
+import Inicio from "./views/inicio";
+import Navbar from "./components/navbar.tsx";
+
 function App() {
   return (
-    <div className="container">
-      
-    </div>
+    <>
+      <Navbar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
