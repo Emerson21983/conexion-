@@ -64,10 +64,15 @@ function Inicio() {
           </div>
         </div>
       </div>
-      <div className="w-full p-10 text-center" style={{'backgroundImage':'url("' + imagenes3.Fondo_min + '")',"backgroundRepeat":"no-repeat","backgroundSize":"100%"}}>
+      <div className="w-full p-10 text-center" style={{'backgroundImage':'url("' + imagenes3.Fondo_min + '")',"backgroundSize":"100%"}}>
         <div className='flex items-center justify-center'>
           <h1 className='text-center text-2xl md:text-3xl mb-10 w-full md:w-9/12'>Con <span className='text-violet-600 font-bold'>TIC</span><span className='font-bold text-blue-600'>ONG</span><span className='font-bold text-orange-400'>LE</span> nos preparamos recibiendo cursos, certificaciones y talleres prácticos con profesionales y expertos en las areas de demanda digital.</h1>
-          <Carreras />
+        </div>
+        <Carreras />
+        <div className="flex justify-center items-center mb-5 mt-5">
+          <div className='rounded-3xl bg-sky-800 p-3 lg:p-10 w-full lg:w-9/12'>
+            <h1 className='text-white text-2xl md:text-3xl text-justify'>Ayudamos a las organizaciones y empresas a potenciar su trabajo aprovechando las tecnologías digitales</h1>
+          </div>
         </div>
       </div>
     </>
