@@ -187,7 +187,7 @@ export default function Navbar() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
               <Menu as="div" className="relative inline-block text-left">
                     <div>
-                      <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-xl font-thin text-white hover:text-gray-300">
+                      <Menu.Button className="flex items-center inline-flex justify-center w-full px-4 py-2 text-xl font-thin text-white hover:text-gray-300">
                         Ticongleros
                         <FontAwesomeIcon icon={faAngleDown} className="-mr-1 ml-2 h-5 w-5" />
                       </Menu.Button>
@@ -236,7 +236,7 @@ export default function Navbar() {
                   <br />
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
-                      <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-xl font-thin text-white hover:text-gray-300">
+                      <Menu.Button className="flex items-center inline-flex justify-center w-full px-4 py-2 text-xl font-thin text-white hover:text-gray-300">
                         Empresas
                         <FontAwesomeIcon icon={faAngleDown} className="-mr-1 ml-2 h-5 w-5" />
                       </Menu.Button>
