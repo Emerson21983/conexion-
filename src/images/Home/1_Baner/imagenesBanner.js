@@ -7,3 +7,18 @@ export default {
     "joven_emprendedor": joven_emprendedor,
     "joven_integral": joven_integral
 }
+
+export const CarouselData = [
+    {
+      image:
+        joven_integral
+    },
+    {
+      image:
+        jove_productivo
+    },
+    {
+      image:
+        joven_emprendedor
+    }
+];
