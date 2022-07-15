@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { CarouselData } from "../images/Home/1_Baner/imagenesBanner";
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Swipe from "react-easy-swipe";
 
 class Carousel extends Component {
