@@ -56,7 +56,7 @@ class Carousel extends Component {
                   key={index}
                   className={
                     index === this.state.currentSlide
-                      ? "block w-full h-auto object-cover"
+                      ? "block w-full h-auto object-cover animate__animated animate__fadeIn"
                       : "hidden"
                   }
                 />
