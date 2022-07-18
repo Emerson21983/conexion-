@@ -4,7 +4,9 @@ import Imagenes3 from '../images/Home/3_/imagenes3';
 import Carousel from "../components/Carousel";
 import imagenes2 from '../images/Home/2_/imagenes2';
 import imagenes3 from '../images/Home/3_/imagenes3';
+import imagenesBootcamp from '../images/Home/4_Bootcamp/imagenesBootcamp';
 import Carreras from '../views/Carreras';
+import Carousel2 from '../components/CarouselAliados';
 
 function Inicio() {
   return (
@@ -64,7 +66,7 @@ function Inicio() {
           </div>
         </div>
       </div>
-      <div className="w-full p-10 text-center" style={{'backgroundImage':'url("' + imagenes3.Fondo_min + '")',"backgroundSize":"100%"}}>
+      <div className="w-full p-10 text-center" style={{ 'backgroundImage': 'url("' + imagenes3.Fondo_min + '")', "backgroundSize": "100%" }}>
         <div className='flex items-center justify-center'>
           <h1 className='text-center text-2xl md:text-3xl mb-10 w-full md:w-9/12'>Con <span className='text-violet-600 font-bold'>TIC</span><span className='font-bold text-blue-600'>ONG</span><span className='font-bold text-orange-400'>LE</span> nos preparamos recibiendo cursos, certificaciones y talleres prácticos con profesionales y expertos en las areas de demanda digital.</h1>
         </div>
@@ -74,6 +76,21 @@ function Inicio() {
             <h1 className='text-white text-2xl md:text-3xl text-justify'>Ayudamos a las organizaciones y empresas a potenciar su trabajo aprovechando las tecnologías digitales</h1>
           </div>
         </div>
+      </div>
+      <div className="w-full p-20 text-center" style={{ 'backgroundImage': 'url("' + imagenesBootcamp.fondo_bootcamp_min + '")', "backgroundSize": "100%" }}>
+        <div class="gap-12 columns-1 lg:columns-2">
+          <center><img src={imagenesBootcamp.L_Bootcamp_min} alt="" /></center>
+          <div className=''>
+            <div>
+              <h1 className='text-white text-2xl md:text-4xl'>Participa en nuestros Bootcamp</h1>
+              <br /><br />
+              <a href="#" className='p-3 md:p-5 bg-fuchsia-600 text-white rounded-xl font-bold text-xl lg:text-3xl'>Aplica ya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white p-5">
+        <Carousel2 />
       </div>
     </>
   );

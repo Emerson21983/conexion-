@@ -13,13 +13,11 @@ class Carousel extends Component {
 
   componentDidMount() {
     setInterval(() => {
-      if (this.state.paused === false) {
         let newSlide =
           this.state.currentSlide === CarouselData.length - 1
             ? 0
             : this.state.currentSlide + 1;
-        this.setState({ currentSlide: newSlide });
-      }
+        this.setState({ currentSlide: newSlide })
     }, 5000);
   }
 
