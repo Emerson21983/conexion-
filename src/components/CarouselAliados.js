@@ -28,7 +28,7 @@ function CarouselAliados() {
     <>
       <Carousel responsive={responsive} infinite={true} autoPlaySpeed={3000}>
         <div>
-          <img src={} />
+          <img />
         </div>
         <div>Item 2</div>
         <div>Item 3</div>
