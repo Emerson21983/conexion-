@@ -113,6 +113,23 @@ function Inicio() {
             </div>
           </div>
         </div>
+        <div className='border border-white'></div>
+        <div class="gap-12 columns-1 lg:columns-2 mt-10">
+          <div className='p-5'>
+            <div>
+              <p className="text-justify">
+              <h1 className='mt-10 text-center text-white leading-loose'>Todos los derechos reservados 2022 <span className='font-semibold'>TICONGLE</span><br />Un programa de <span className='font-semibold'>CONEXION El Salvador</span></h1>
+              </p>
+            </div>
+          </div>
+          <div className='p-5'>
+            <div>
+              <p className="text-justify">
+              <h1 className='mt-10 text-center text-white leading-loose'>Todos los derechos reservados 2022 <span className='font-semibold'>TICONGLE</span><br />Un programa de <span className='font-semibold'>CONEXION El Salvador</span></h1>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
