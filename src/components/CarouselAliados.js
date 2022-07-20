@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import imagenes3 from '../images/Home/3_/imagenes3';
+import imagenesAliados from '../images/Home/Aliados/imagenesAliados';
 
 const responsive = {
   superLargeDesktop: {
@@ -26,13 +26,54 @@ const responsive = {
 function CarouselAliados() {
   return (
     <>
-      <Carousel responsive={responsive} infinite={true} autoPlaySpeed={3000}>
-        <div>
-          <img />
+      <h1 className="text-center text-3xl md:text-4xl mt-10 font-semibold">Aliados y socios estratégicos</h1>
+      <Carousel swipeable={false}
+        draggable={false}
+        responsive={responsive}
+        ssr={true} // means to render carousel on server-side.
+        infinite={true}
+        autoPlay={true}
+        autoPlaySpeed={4000}
+        customTransition="all .5"
+        transitionDuration={500}
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px" >
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.SVNet} />
         </div>
-        <div>Item 2</div>
-        <div>Item 3</div>
-        <div>Item 4</div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.atiempo} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.benowu} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.betterRide} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.casa_tres_mundos} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.casatic} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.clubTIC} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.coexport} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.dreamDigitalWorks} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.eccsa} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.fundemas} />
+        </div>
+        <div className="h-full flex content-center items-center p-10">
+          <img className="w-full" src={imagenesAliados.isocElSalvador} />
+        </div>
       </Carousel>;
     </>
   );

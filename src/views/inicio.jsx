@@ -5,6 +5,7 @@ import Carousel from "../components/Carousel";
 import imagenes2 from '../images/Home/2_/imagenes2';
 import imagenes3 from '../images/Home/3_/imagenes3';
 import imagenesBootcamp from '../images/Home/4_Bootcamp/imagenesBootcamp';
+import imagenesSedes from '../images/Home/5_Sedes/imagenesSedes';
 import Carreras from '../views/Carreras';
 import Carousel2 from '../components/CarouselAliados';
 
@@ -91,6 +92,27 @@ function Inicio() {
       </div>
       <div className="bg-white p-5">
         <Carousel2 />
+      </div>
+      <div className="w-full p-20 bg-sky-700" >
+        <h1 className='text-center text-white text-4xl'>Sedes</h1>
+        <div class="gap-12 columns-1 lg:columns-2 mt-10">
+          <div className='p-5'>
+            <div>
+              <center><img src={imagenesSedes.conexion_san_benito_min} alt="" /></center>
+              <p className="text-justify">
+              <h1 className='mt-10 text-center text-white leading-loose'><span className='p-2 bg-sky-400 rounded'>Dirección</span>&nbsp;&nbsp;Calle La Reforma #249 Col. San Benito, San Salvador.</h1>
+              </p>
+            </div>
+          </div>
+          <div className='p-5'>
+            <div>
+              <center><img src={imagenesSedes.conexion_soyapango_min} alt="" /></center>
+              <p className="text-justify">
+              <h1 className='mt-10 text-center text-white leading-loose'><span className='p-2 bg-sky-400 rounded'>Dirección</span>&nbsp;&nbsp;Centro Comercial Plaza Venecia, local 109. Carretera de Oro. Frente a U.M. ISSS Soyapango.</h1>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
