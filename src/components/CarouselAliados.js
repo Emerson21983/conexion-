@@ -1,4 +1,3 @@
-import { Component } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import imagenesAliados from '../images/Home/Aliados/imagenesAliados';
@@ -74,7 +73,7 @@ function CarouselAliados() {
         <div className="h-full flex content-center items-center p-10">
           <img className="w-full" src={imagenesAliados.isocElSalvador} />
         </div>
-      </Carousel>;
+      </Carousel>
     </>
   );
 }

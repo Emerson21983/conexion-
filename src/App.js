@@ -8,6 +8,7 @@ import {
 
 import Inicio from "./views/inicio";
 import Navbar from "./components/navbar.tsx";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }
