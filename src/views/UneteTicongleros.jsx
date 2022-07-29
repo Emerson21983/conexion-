@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from "react";
 import BannerUneteTicongleros from '../images/UneteTicongleros/BannerUneteTicongleros';
+import Pag2 from '../images/UneteTicongleros/Pag_2/pag2';
 
 function UneteTicongleros() {
     return (
@@ -15,10 +16,53 @@ function UneteTicongleros() {
 
                 <h1 className="text-center text-4xl mt-10">Tu portafolio es tu mejor currículo</h1>
 
-                <div class="gap-8 columns-1 md:columns-2 lg:columns-3">
+                <div class="gap-10 columns-1 md:columns-2 lg:columns-3">
                     <div className="p-5">
-                        <div className="rounded-3xl p-5">
-                            <img src={imagenes3.marketing_digital_min} alt="" />
+                        <div className="rounded-3xl p-5 text-center text-center">
+                            <img src={Pag2.formacion_integral} alt="" />
+                            <p className="text-teal-900 text-xl">
+                                Complementa tu especialización digital con un programa de desarrollo emocional, finanzas básicas e ingles
+                            </p>
+                        </div>
+                    </div>
+                    <div className="p-5">
+                        <div className="rounded-3xl p-5 text-center">
+                            <img src={Pag2.aprende_creando} alt="" />
+                            <p className="text-teal-900 text-xl">
+                                Aprendizaje practico trabajando en proyectos reales de empresas y organizaciones socias y aliadas
+                            </p>
+                        </div>
+                    </div>
+                    <div className="p-5">
+                        <div className="rounded-3xl p-5 text-center">
+                            <img src={Pag2.acceso_laboral} alt="" />
+                            <p className="text-teal-900 text-xl">
+                                Forma parte de la red de freelancers de <span className="font-bold">TICONGLE</span> para hacer trabajos por proyectos
+                            </p>
+                        </div>
+                    </div>
+                    <div className="p-5">
+                        <div className="rounded-3xl p-5 text-center">
+                            <img src={Pag2.apoyo_profesional} alt="" />
+                            <p className="text-teal-900 text-xl">
+                                Aprende y participa en workshops y eventos exclusivos con profesionales y expertos de la industria
+                            </p>
+                        </div>
+                    </div>
+                    <div className="p-5">
+                        <div className="rounded-3xl p-5 text-center">
+                            <img src={Pag2.emprende_ideas} alt="" />
+                            <p className="text-teal-900 text-xl">
+                                Transforma tu carrera tanto si quieres trabajar en el mundo digital, como si quieres lanzar tu propia empresa
+                            </p>
+                        </div>
+                    </div>
+                    <div className="p-5">
+                        <div className="rounded-3xl p-5 text-center">
+                            <img src={Pag2.zona_coworkin} alt="" />
+                            <p className="text-teal-900 text-xl">
+                                Cuenta con espacios para trabajar en tus propios proyectos y pertenece a la comunidad colaborando e intercambiando conocimientos e ideas
+                            </p>
                         </div>
                     </div>
                 </div>
