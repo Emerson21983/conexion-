@@ -46,7 +46,7 @@ export default function Navbar() {
                           <Menu.Item>
                             {({ active }) => (
                               <a
-                                href="#"
+                                href="/UneteTicongleros"
                                 className={classNames(
                                   active ? 'bg-cyan-500 text-white' : 'text-white',
                                   'block px-4 py-2 text-sm'
